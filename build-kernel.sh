@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $1 \
+cd linux/ \
     && make -j17 \
     && make modules \
     && sudo make modules_install \
